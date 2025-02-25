@@ -18,7 +18,7 @@ func getRole(for emoji: String) {
         print("👨‍🏫 is a Teacher! 📚")
     case "👨‍⚕️":
         print("👨‍⚕️ is a Doctor! 🏥")
-    case "🎭":
+    case "🎭" :
         print("🎭 is an Actor! 🎬")
     case "👨‍🚀":
         print("👨‍🚀 is an Astronaut! 🌌")
@@ -36,8 +36,6 @@ func getRole(for emoji: String) {
         print("🤷 Unknown role! Try another emoji.")
     }
 }
-
-
 getRole(for: "😀")
 getRole(for: "😎")
 getRole(for: "🧐")
