@@ -26,6 +26,11 @@ for  i in 1...10{
     
 }
 
+let names1 = ["Anna", "Alex", "Brian", "Jack"]
+for i in names1 {
+    print(i)
+}
+
 let names = ["Anna", "Alex", "Brian", "Jack"]
 let count = names.count
 for i in 0..<count {
